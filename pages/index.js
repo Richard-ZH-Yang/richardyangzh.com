@@ -10,15 +10,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Clint | Front-End Developer</title>
-        <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
+        <title>Zhonghao (Richard) Yang</title>
+        <meta name="description" content="I'm a software development engineer and fourth year student at UBC majoring in Computer Science with a minor in Data Science." />
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />
-    <About />
+    {/* <About />
     <Skills />
     <Projects />
-    <Contact />
+    <Contact /> */}
     </div>
   )
 }
