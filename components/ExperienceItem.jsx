@@ -3,7 +3,7 @@ import React from 'react'
 const ExperienceItem = ({title, location, timePeriod, bulletPoints}) => {
   return (
     <div className='p-8 relative items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl'>
-          <p className='italic' style={{fontSize: 32}}>
+          <p className='italic' style={{fontSize: 20}}>
             <span className='font-bold italic'>
               {title}
             </span>
