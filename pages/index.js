@@ -4,6 +4,8 @@ import Contact from '../components/Contact'
 import Main from '../components/Main'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
+import Experience from '../components/Experience'
+import Education from '../components/Education'
 
 
 export default function Home() {
@@ -15,10 +17,12 @@ export default function Home() {
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />
-    {/* <About />
+    {/* <About /> */}
+    <Education />
+    <Experience />
     <Skills />
     <Projects />
-    <Contact /> */}
+    <Contact />
     </div>
   )
 }

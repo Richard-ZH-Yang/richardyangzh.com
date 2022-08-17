@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn, FaFileAlt, FaEnvelope } from 'react-icons/fa';
 
 const Main = () => {
@@ -47,7 +46,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://resume.richardyangzh.com'
+              href='richard_yang_resume.pdf'
               target='_blank'
               rel='noreferrer'
             >
