@@ -67,7 +67,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='Shifty Quad Tree'
-            description='Portraits an image with a blocky effect, and applying dynamic programming to speed up the computing process.'
+            description='Portraits an image with a blocky effect, and applying dynamic programming to speed up the computing process. The original image will be represented in memory as a binary tree whose nodes contain information about rectangles. Splits are performed so as to minimize hue variability across the resulting rectangles.'
             backgroundImg={shiftyQuandTreeImg}
             tech={['C++', 'GDB', 'Valgrind', 'Linux', 'Dynamic Programming']}
             githubUrl='https://github.com/Richard-ZH-Yang/Shifty-Quadtree'

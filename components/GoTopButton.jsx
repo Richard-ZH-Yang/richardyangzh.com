@@ -10,7 +10,7 @@ import ContactImg from '../public/assets/contact.jpg'
 const GoTopButton = () => {
 
   return (
-      <div className='max-w-[1240px] m-auto px-2 py-16 w-full w-full '>
+      <div className='max-w-[1240px] m-auto px-2 py-16 w-full w-full'>
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
@@ -24,7 +24,6 @@ const GoTopButton = () => {
           </Link>
         </div>
       </div>
-
   );
 };
 
