@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/navLogo.png'
@@ -134,7 +134,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build something legendary together
+                Zhonghao (Richard) Yang
               </p>
             </div>
           </div>
@@ -145,14 +145,14 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href='/#about'>
+              <Link href='/#education'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  About
+                  Education
                 </li>
               </Link>
-              <Link href='/#skills'>
+              <Link href='/#experience'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Skills
+                  Experience
                 </li>
               </Link>
               <Link href='/#projects'>
@@ -160,14 +160,14 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
+              <Link href='/#skills'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Resume
+                  Skills
                 </li>
               </Link>
-              <Link href='/#contact'>
+              <Link href='richard_yang_resume.pdf'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Contact
+                  Resume
                 </li>
               </Link>
             </ul>
@@ -176,40 +176,42 @@ const Navbar = () => {
                 Let&#39;s Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaLinkedinIn />
-                  </div>
-                </a>
-                <a
-                  href='https://github.com/fireclint'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaGithub />
-                  </div>
-                </a>
-                <Link href='/#contact'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <AiOutlineMail />
-                  </div>
-                </Link>
-                <Link href='/resume'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <BsFillPersonLinesFill />
-                  </div>
-                </Link>
+               <a
+              href='https://www.linkedin.com/in/Richard-ZH-Yang'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaLinkedinIn />
+              </div>
+            </a>
+            <a
+              href='https://github.com/Richard-ZH-Yang'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaGithub />
+              </div>
+            </a>
+            <a
+              href='mailto:richardyangzh@gmail.com'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaEnvelope />
+              </div>
+            </a>
+            <a
+              href='richard_yang_resume.pdf'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaFileAlt />
+              </div>
+            </a>
               </div>
             </div>
           </div>
