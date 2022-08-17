@@ -5,10 +5,9 @@ const Experience = () => {
   return (
     <div id='experience' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+        <h2 className='py-4 tracking-widest uppercase text-[#5651e5]'>
           Experience
-        </p>
-        <h2 className='py-4'>Where I&apos;ve worked</h2>
+        </h2>
         <div className='grid md:grid-cols-1 gap-8'>
           <ExperienceItem
             title='Backend Developer Intern @ IBM'
