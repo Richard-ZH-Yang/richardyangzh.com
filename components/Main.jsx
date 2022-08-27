@@ -7,9 +7,6 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
-            LET&#39;S BUILD SOMETHING TOGETHER
-          </p>
           <h1 className='py-4 text-gray-700'>
             Hi, I&#39;m <span className='text-[#5651e5]'> Zhonghao (Richard) Yang</span>
           </h1>
@@ -17,14 +14,14 @@ const Main = () => {
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             I&apos;m a fourth-year student at UBC majoring in Computer Science with a minor in Data Science. I am currently working as a Backend Developer Intern at IBM and previously worked as a Full Stack Developer Intern at CAE.
           </p>
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+          <div className='flex items-center justify-between max-w-[480px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/Richard-ZH-Yang'
               target='_blank'
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaLinkedinIn />
+                <FaLinkedinIn size={'1.7rem'}/>
               </div>
             </a>
             <a
@@ -33,7 +30,7 @@ const Main = () => {
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaGithub />
+                <FaGithub size={'1.7rem'} />
               </div>
             </a>
             <a
@@ -42,7 +39,7 @@ const Main = () => {
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaEnvelope />
+                <FaEnvelope size={'1.7rem'} />
               </div>
             </a>
             <a
@@ -51,7 +48,7 @@ const Main = () => {
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaFileAlt />
+                <FaFileAlt size={'1.7rem'} />
               </div>
             </a>
           </div>
