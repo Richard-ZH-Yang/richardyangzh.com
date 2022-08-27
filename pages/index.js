@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Main from '../components/Main'
-import Projects from '../components/Projects'
+import Projects from '../components/Projects/Projects'
 import Skills from '../components/Skills'
 import Experience from '../components/Experience'
 import Education from '../components/Education'

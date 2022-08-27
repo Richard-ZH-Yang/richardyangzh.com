@@ -2,14 +2,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import werewolfImg from '../public/assets/projects/werewolf.png'
-import insightUBCImg from '../public/assets/projects/insightUBC.jpg'
-import mewmazonImg from '../public/assets/projects/mewmazon.png'
-import shiftyQuandTreeImg from '../public/assets/projects/shifty.png'
-import toDoListImg from '../public/assets/projects/toDoList.png'
-import portfolioImg from '../public/assets/projects/portfolio.png'
-import passowrdImg from '../public/assets/projects/password.png'
-import happyImg from '../public/assets/projects/happyCommunity.png'
+import werewolfImg from '../../public/assets/projects/werewolf.png'
+import insightUBCImg from '../../public/assets/projects/insightUBC.jpg'
+import mewmazonImg from '../../public/assets/projects/mewmazon.png'
+import shiftyQuandTreeImg from '../../public/assets/projects/shifty.png'
+import toDoListImg from '../../public/assets/projects/toDoList.png'
+import portfolioImg from '../../public/assets/projects/portfolio.png'
+import passowrdImg from '../../public/assets/projects/password.png'
+import happyImg from '../../public/assets/projects/happyCommunity.png'
 
 import ProjectItem from './ProjectItem';
 
