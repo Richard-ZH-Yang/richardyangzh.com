@@ -52,7 +52,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='Portfolio Website'
-            description='Personal portfolio website built to showcase experiences and projects. It is developed using React, Tailwind, Next and Firebase. And it is deployed on Vercel and configed to a custom domain.'
+            description='Personal portfolio website built to showcase experiences and projects. It is implemented with Ract and styled with Tailwind. It is deployed on Vercel and configed to a custom domain. Vercel build a pipeline to automatically deploy from Github repository.'
             backgroundImg={portfolioImg}
             tech={['React', 'Tailwind', 'Next', 'Vercel', 'Node', 'Firebase']}
             githubUrl='https://github.com/Richard-ZH-Yang/richardyangzh.com'
@@ -62,7 +62,7 @@ const Projects = () => {
             title='Happy Community'
             description='This project aimed to provide an online platform for people to write diaries, share stories, and make friends. User can write daries and our LSTM machine learning model will analyze a happiness score on a scale of 100. User also able to review the history and post stories in the community.'
             backgroundImg={happyImg}
-            tech={['JavaScript', 'Python', 'MySQL', 'Flask', 'Machine Learning', 'HTML', 'CSS']}
+            tech={['JavaScript', 'Python', 'MySQL', 'Flask', 'Machine Learning']}
             githubUrl='https://github.com/Richard-ZH-Yang/happy-community'
           />
           <ProjectItem
@@ -74,7 +74,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='Password Decoder'
-            description='Password decoder can help crack the password stored with hashing and salt strategy given the hash code. It will use a brute force strategy to help systematically search the password. It uses a thread pool to control multiple threads to maximize efficiency.'
+            description='Password decoder can help crack the password stored with hashing and salt strategy given the hash code. It will use a brute force strategy and perform parallel search to help systematically search the password. It uses a thread pool implementation to control multiple threads to maximize efficiency.'
             backgroundImg={passowrdImg}
             tech={['C', 'GDB', 'Linux', 'Multi-threading']}
             githubUrl='https://github.com/Richard-ZH-Yang/Password-Decoder'
