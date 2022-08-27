@@ -11,8 +11,8 @@ const ProjectItem = ({ title, description, backgroundImg, tech, githubUrl, demoU
       <h3 style={{
         fontWeight: '500',
         letterSpacing: '2px',
-        padding: '.5rem 0',
-        fontSize: '3rem'
+        padding: '.3rem 0',
+        fontSize: '2.5rem'
       }}>{title}</h3>
       <p style={{
         width: '100%',
@@ -27,7 +27,7 @@ const ProjectItem = ({ title, description, backgroundImg, tech, githubUrl, demoU
       <ul style={{
         display: 'flex',
         justifyContent: 'space-around',
-        paddingTop: '2rem',
+        paddingTop: '1rem',
         paddingLeft: '2rem',
         paddingRight: '2rem',
 

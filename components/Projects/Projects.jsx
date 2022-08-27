@@ -52,7 +52,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='Portfolio Website'
-            description='Personal portfolio website to showcase experiences and projects. It is deployed on Vercel and configed to a custom domain.'
+            description='Personal portfolio website built to showcase experiences and projects. It is developed using React, Tailwind, Next and Firebase. And it is deployed on Vercel and configed to a custom domain.'
             backgroundImg={portfolioImg}
             tech={['React', 'Tailwind', 'Next', 'Vercel', 'Node', 'Firebase']}
             githubUrl='https://github.com/Richard-ZH-Yang/richardyangzh.com'
