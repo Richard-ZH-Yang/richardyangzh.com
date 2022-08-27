@@ -27,7 +27,7 @@ const Tesimonials = () => {
         </h2>
         <div className='grid md:grid-cols-2 gap-8'>
           {data.map((d) => (
-            <div className="relative items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group" style={{ textAlign: 'center'}}>
+            <div key={d.id} className="relative items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group" style={{ textAlign: 'center'}}>
               <p style={{
                 width: '100%',
                 padding: '0 50px',
