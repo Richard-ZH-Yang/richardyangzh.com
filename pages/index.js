@@ -5,6 +5,7 @@ import Skills from '../components/Skills'
 import Experience from '../components/Experience'
 import Education from '../components/Education'
 import GoTopButton from '../components/GoTopButton'
+import Testimonials from '../components/Testimonials'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
     <Main />
     <Education />
     <Experience />
+    <Testimonials />
     <Projects />
     <Skills />
     <GoTopButton />
