@@ -77,9 +77,9 @@ const Skills = () => {
       <h2 className='py-6'>Frameworks</h2>
       <div className='grid grid-cols-2 lg:grid-cols-6 gap-8'>
         {renderLogo(ReactImg, 'React')}
-        {renderLogo(NextJS, 'Next')}
+        {/* {renderLogo(NextJS, 'Next')}
         {renderLogo(bootstrap, 'Bootstrap')}
-        {renderLogo(Tailwind, 'Tailwind')}
+        {renderLogo(Tailwind, 'Tailwind')} */}
         {renderLogo(node, 'Node')}
         {renderLogo(django, 'Django')}
         {renderLogo(dotnet, 'ASP.NET')}
