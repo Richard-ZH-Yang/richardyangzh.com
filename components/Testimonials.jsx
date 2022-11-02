@@ -12,7 +12,7 @@ const Tesimonials = () => {
     {
       id: 2,
       name: "Gordon Wong",
-      title: "Senior Software Developer @ CAE",
+      title: "IT Architect @ CAE",
       desc:
         "Richard was very receptive to comments and has exhibited a passion to learn new technologies. He has also shown that he is willing to go far and beyond to get something done. Being someone in his first work term, Richard has exceeded all the expectations.\n\n\n\n\n\n\n\n\n\n\n\n",
     },
@@ -46,13 +46,13 @@ const Tesimonials = () => {
                 width: '100%',
                 marginTop: '10px'
               }}>
-              <h3 style={{
-                fontSize: '25px'
-              }}>{d.name}</h3>
-              <h4 style={{
-                color: '#797373',
-                fontSize: '20px', marginBottom: '1.5rem'
-              }}>{d.title}</h4>
+                <h3 style={{
+                  fontSize: '25px'
+                }}>{d.name}</h3>
+                <h4 style={{
+                  color: '#797373',
+                  fontSize: '20px', marginBottom: '1.5rem'
+                }}>{d.title}</h4>
               </div>
             </div>
           ))}
