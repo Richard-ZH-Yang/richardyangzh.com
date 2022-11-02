@@ -12,7 +12,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>A Software Development Engineer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I&apos; m a fourth-year student at UBC majoring in Computer Science with a minor in Data Science.I&apos; m an incoming SDE Intern at Huawei &#40; winter 2023&#41; and at Amazon &#40; summer 2023&#41; . I previously worked as a Backend Developer Intern at IBM and Full Stack Developer Intern at CAE.          </p>
+            I&apos; m a senior year student at UBC majoring in Computer Science with a minor in Data Science. I am passionate about the distributed systems and machine learning field, and always keen to learn new technologies!          </p>
           <div className='flex items-center justify-between max-w-[480px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/Richard-ZH-Yang'
