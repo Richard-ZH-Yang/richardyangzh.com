@@ -12,7 +12,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>A Software Development Engineer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I&apos; m a senior year student at UBC majoring in Computer Science with a minor in Data Science. I am passionate about the distributed systems and machine learning field, and always keen to learn new technologies!          </p>
+            I&apos; m a senior year student at UBC majoring in Computer Science with a minor in Data Science. I am passionate about the distributed systems and cloud computing field, and always keen to learn new technologies!          </p>
           <div className='flex items-center justify-between max-w-[480px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/Richard-ZH-Yang'
@@ -42,7 +42,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='richard_yang_resume.pdf'
+              href='Zhonghao (Richard) Yang resume 20230828.pdf'
               target='_blank'
               rel='noreferrer'
             >

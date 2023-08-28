@@ -72,13 +72,13 @@ const Navbar = () => {
               <Link href='/'>Home</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#education'>Education</Link>
+              <Link href='/#testimonials'>Testimonials</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#experience'>Experience</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#testimonials'>Testimonials</Link>
+              <Link href='/#education'>Education</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#projects'>Projects</Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
               <Link href='/#skills'>Skills</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/richard_yang_resume.pdf'>Resume</Link>
+              <Link href='/Zhonghao (Richard) Yang resume 20230828.pdf'>Resume</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -168,7 +168,7 @@ const Navbar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href='richard_yang_resume.pdf'>
+              <Link href='Zhonghao (Richard) Yang resume 20230828.pdf'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
@@ -207,7 +207,7 @@ const Navbar = () => {
               </div>
             </a>
             <a
-              href='richard_yang_resume.pdf'
+              href='Zhonghao (Richard) Yang resume 20230828.pdf'
               target='_blank'
               rel='noreferrer'
             >

@@ -13,7 +13,7 @@ const Education = () => {
             title='B.Sc. major in Computer Science (Co-op), minor in Data Science @ University of British Columbia'
             location='Vancouver, BC'
             timePeriod='Sep 2020 - May 2024'
-            bulletPoints={['Received Trek Excellence Scholarship (top 5%), and Faculty of Science International Student Scholarship.', 'Coursework: Software Engineering (97%), Data Structures and Algorithms (94%), Computer Systems (92%)', 'GPA: 4.33/4.33 (91%)']}
+            bulletPoints={['Received Trek Excellence Scholarship (top 5%), and Faculty of Science International Student Scholarship.', 'Coursework: Software Engineering (97%), Computer Systems (92%), Data Structures and Algorithms (94%)', 'GPA: 3.9/4.0 (88%)']}
           />
         </div>
       </div>

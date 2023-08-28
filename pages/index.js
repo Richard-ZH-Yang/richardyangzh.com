@@ -17,9 +17,9 @@ export default function Home() {
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />
-    <Education />
-    <Experience />
     <Testimonials />
+    <Experience />
+    <Education />
     <Projects />
     <Skills />
     <GoTopButton />

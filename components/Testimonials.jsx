@@ -11,6 +11,12 @@ const Tesimonials = () => {
     },
     {
       id: 2,
+      name: "Robin Grosman",
+      title: "Principal Software Engineer @ Huawei",
+      desc: "Richard has always worked hard on the assignment he was given and has learned very quickly. He always verified his work and it was gone with good quality. He takes general feedback very well and immediately applies it. Over the workterm I saw many of his technical as well as soft skills grow signficantly.\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+      id: 3,
       name: "Gordon Wong",
       title: "IT Architect @ CAE",
       desc:
