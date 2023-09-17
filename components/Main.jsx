@@ -41,7 +41,7 @@ const Main = () => {
                 <FaEnvelope size={'1.7rem'} />
               </div>
             </a>
-            <a
+            {/* <a
               href='Zhonghao (Richard) Yang resume 20230828.pdf'
               target='_blank'
               rel='noreferrer'
@@ -49,7 +49,7 @@ const Main = () => {
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaFileAlt size={'1.7rem'} />
               </div>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

@@ -86,9 +86,9 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            {/* <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/Zhonghao (Richard) Yang resume 20230828.pdf'>Resume</Link>
-            </li>
+            </li> */}
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -168,11 +168,11 @@ const Navbar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href='Zhonghao (Richard) Yang resume 20230828.pdf'>
+              {/* <Link href='Zhonghao (Richard) Yang resume 20230828.pdf'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
-              </Link>
+              </Link> */}
             </ul>
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#5651e5]'>
@@ -206,7 +206,7 @@ const Navbar = () => {
                 <FaEnvelope />
               </div>
             </a>
-            <a
+            {/* <a
               href='Zhonghao (Richard) Yang resume 20230828.pdf'
               target='_blank'
               rel='noreferrer'
@@ -214,7 +214,7 @@ const Navbar = () => {
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaFileAlt />
               </div>
-            </a>
+            </a> */}
               </div>
             </div>
           </div>

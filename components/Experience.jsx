@@ -13,7 +13,7 @@ const Experience = () => {
             title='Software Development Engineer Intern @ Amazon'
             location='Vancouver, BC'
             timePeriod='May 2023 - Sep 2023'
-            bulletPoints={['Designed and implemented a highly scalable weighted priority queuing mechanism with FIFO for internal notification system using Java, achieving a 95% reduction in wait time for high-severity items on average in production.', 'Architected new AWS CDK stacks infrastructure for the project’s CloudFormation setup using TypeScript.', 'Crafted a DAO from scratch for DynamoDB, incorporating enhanced settings to ensure optimal project execution.', 'Implemented unit tests for Lambda functions achieving 99% coverage, complemented by integration and load tests.', 'Created CloudWatch dashboards to monitor summary statistics, additionally setting up alarms for issue detection.', 'Expanded the project scope significantly and completed deliverables ahead of the stipulated timeline by 2 weeks.']}
+            bulletPoints={['Designed and implemented a highly scalable weighted priority queuing mechanism with FIFO for internal notification system using Java.', 'Architected new AWS CDK stacks infrastructure for the project’s CloudFormation setup using TypeScript.', 'Crafted a DAO from scratch for DynamoDB, incorporating enhanced settings to ensure optimal project execution.', 'Implemented unit tests for Lambda functions achieving 99% coverage, complemented by integration and load tests.', 'Created CloudWatch dashboards to monitor summary statistics, additionally setting up alarms for issue detection.']}
           />
           <ExperienceItem
             title='Software Enginner R&D Intern @ Huawei'
